@@ -15,11 +15,11 @@ The designs were created to the following widths:
 
 - Red 500: hsl(356, 100%, 66%)
 - Red 400: hsl(355, 100%, 74%)
-- Blue 900: hsl(208, 49%, 24%)
+- Blue 900: #1f3f5b
 
 ### Neutral
 
-- White: hsl(0, 100%, 100%)
+- White: #ffffff
 - Gray 600: hsl(207, 13%, 34%)
 - Gray 900: hsl(240, 10%, 16%)
 
@@ -32,7 +32,7 @@ Background gradient - intro/CTA mobile nav:
 
 Background gradient - body:
 
-- Purple 950: hsl(237, 17%, 21%)
+- Purple 950: #2c2d3f
 - Purple 900: hsl(237, 23%, 31%)
 
 ## Typography
