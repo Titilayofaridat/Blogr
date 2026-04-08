@@ -100,6 +100,13 @@ body {
     gap: 15px;
 }
 
+/* Hamburger icon */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
 .btn {
     padding: 12px 25px;
     border-radius: 25px;
@@ -232,6 +239,8 @@ body {
   border-radius: 0 60px 0 0;
 }
 
+
+
 .footer-h1{
     font-size: 24px;
     font-weight: 700;
@@ -309,3 +318,188 @@ body {
   line-height: 1.6;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 60px;
+  }
+
+  .hero::before {
+    background-position: center -120px;
+    background-size: 1200px;
+  }
+
+  .navbar {
+    padding: 24px;
+  }
+
+  .logo-link {
+    gap: 16px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 3;
+  }
+
+  .hero-content {
+    margin-top: 120px;
+    padding: 0 24px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .second-section {
+    padding: 40px 24px 30px;
+    height: auto;
+  }
+
+  .second-section h2 {
+    padding: 0;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .section-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .first-content,
+  .second-content {
+    text-align: center;
+  }
+
+  .image-content {
+    position: static;
+    margin-top: 32px;
+    order: -1;
+  }
+
+  .image-content img {
+    position: static;
+    right: auto;
+    top: auto;
+    max-width: 100%;
+  }
+
+  .third-section {
+    padding: 60px 24px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    height: auto;
+    border-radius: 0;
+    margin-top: 40px;
+    border-radius: 0 60px 0 60px;
+  }
+
+  .second-image-content {
+    max-width: 360px;
+    width: 100%;
+  }
+
+  .third-section-content {
+    width: 100%;
+  }
+
+  .third-section-content h3 {
+    font-size: 28px;
+  }
+
+  .laptop-container {
+    padding: 48px 24px;
+  }
+
+  .laptop-inner {
+    gap: 32px;
+  }
+
+  .laptop-image {
+    margin-left: 0;
+  }
+
+  .laptop-text {
+    max-width: 100%;
+  }
+
+  .laptop-text h2 {
+    font-size: 28px;
+  }
+
+  .footer-container {
+
+    gap: 32px;
+    padding: 48px 24px;
+    align-items: flex-start;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-col ul {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .second-section h2 {
+    font-size: 24px;
+  }
+
+  .third-section-content h3 {
+    font-size: 24px;
+  }
+
+  .laptop-text h2 {
+    font-size: 24px;
+  }
+
+  .footer-container {
+    padding: 32px 18px;
+  }
+}
+
