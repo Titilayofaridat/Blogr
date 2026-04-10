@@ -500,6 +500,8 @@ body {
 
   .footer-container {
     padding: 32px 18px;
+    gap: 13px;
+   
   }
 }
 
